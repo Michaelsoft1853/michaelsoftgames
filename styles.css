@@ -1,0 +1,155 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff0000;
+    color: #333;
+}
+
+/* Üst Bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #8b0000;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar a {
+    color: #ffcccb;
+    padding: 8px 12px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    background-color: #b22222;
+    color: white;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Genel İçerik Alanı */
+.content-section {
+    max-width: 1000px; /* Küçültülen genişlik */
+    margin: 20px auto;
+    padding: 15px; /* Küçültülen padding */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Oyun Sayfası (Genel Yapı) */
+.game-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 15px; /* Küçültülen padding */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.game-left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.game-left img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.game-right {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.game-right h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.game-right p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.download-btn {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: #b22222;
+}
+
+/* Oyun Listesi Sayfası */
+.game-list {
+    max-width: 1000px; /* Küçültülen genişlik */
+    margin: 20px auto;
+    padding: 15px; /* Küçültülen padding */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.game-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.game-item p {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.game-item a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #8b0000;
+}
+
+.game-item a:hover {
+    color: #b22222;
+}
