@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haylayf3 - MICHAELSOFT GAMES</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ff0000;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        
+        .navbar {
+            background-color: darkred;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            height: 80px;
+            width: auto;
+        }
+
+        .navbar h1 {
+            color: white;
+            margin: 0;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 16px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            border: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .content {
+            padding: 2rem;
+            color: white;
+            max-width: 1200px;
+            margin: 0 auto;
+            min-height: calc(100vh - 180px);
+        }
+
+        .game-container {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            margin-top: 2rem;
+        }
+
+        .game-image {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .game-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid darkred;
+        }
+
+        .game-details {
+            flex: 1;
+            background-color: darkred;
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .download-button {
+            display: inline-block;
+            background-color: darkred;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .download-button:hover {
+            border: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .footer {
+            background-color: darkred;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">
+            <img src="downloads/logo.png" alt="MICHAELSOFT GAMES" class="logo">
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="team.html">Ekibimiz</a>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Haylayf3</h2>
+        <div class="game-container">
+            <div class="game-image">
+                <img src="downloads/haylayf3.jpg" alt="Haylay F3">
+            </div>
+            <div class="game-details">
+                <p>Half-Life 3 alternative</p>
+                <a href="https://pixeldrain.com/u/EkxTAJ26" class="download-button">İNDİR</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        All rights reserved Michaelsoft GAMES 2009-2024
+    </div>
+</body>
+</html>
